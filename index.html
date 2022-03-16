@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Frontend Mentor | Stats Preview Card Component solution</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+        <meta charset = "UTF-8">
+        <meta name = "description" content = "Frontend Mentor Stats preview card component solution">
+        <meta name = "keywords" content = "HTML, CSS, Frontend Mentor solution">
+        <meta name = "author" content = "Grace Sampao, nadupoy">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap">
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+
+    <body>
+        <main>
+            <div id="card-01">
+                <div id="text">
+                    <h1>Get <span>insights</span> that help your business grow.</h1>
+                    <p>
+                        Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+                    </p>
+                </div>
+
+                <div id="grid-container">
+                    <div class="grid-item">
+                        <p class="stats">10k+</p>
+                        <p class="stats-heading">COMPANIES</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <p class="stats">314</p>
+                        <p class="stats-heading">TEMPLATES</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <p class="stats">12M+</p>
+                        <p class="stats-heading">QUERIES</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="card-02">
+                <picture>
+                    <source media="(min-width: 992px)" srcset="images\image-header-desktop.jpg">
+                    <source media="(min-width: 601px)" srcset="images\image-header-mobile.jpg">
+                    <source media="(min-width: 320px)" srcset="images\image-header-mobile.jpg">
+                    <img src="images/favicon-32x32.png">
+                </picture>
+            </div>
+        </main>
+
+        <footer>
+            <p>
+                Challenge by <a href="https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc" target="_blank">Frontend Mentor</a> | Coded by <a href="https://github.com/nadupoy" target="_blank">Nadupoy</a>
+            </p>
+        </footer>
+    </body>
+</html>
